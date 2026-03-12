@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanto Store 2.0</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="grid-container">
+
+        <nav class="nav">
+    <div class="brand">
+        <i class="fa-solid fa-bolt"></i> Kanto Store
+    </div>
+    <i class="fa-solid fa-bars hamburger"></i>
+    <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</nav>
+
+        <section class="filter">
+            <span>Ordenar Por:</span>
+            <select name="orden" id="orden">
+                <option value="precio">Precio</option>
+                <option value="mas-vendidos">Más vendidos</option>
+                <option value="ofertas">Ofertas</option>
+                
+            </select>
+        </section>
+
+        <main class="main">
+            <div class="products">
+                <article class="card">
+                    <img src="./assets/img/UltraBall.png" alt="UltraBall">
+                    <p>UltraBall</p>
+                    <button>Ver más</button>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/Safari Ball.png" alt="Safari Ball">
+                    <p>Safari Ball</p>
+                    <button>Ver más</button>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/SuperPoción.png" alt="Super Poción">
+                    <p>Super Poción</p>
+                    <button>Ver más</button>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/PiedraTrueno.png" alt="Piedra Trueno">
+                    <p>Piedra Trueno</p>
+                    <button>Ver más</button>
+                </article>
+            </div>
+            
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <p>Todos los derechos reservados</p>
+        </footer>
+
+    </div>
+</body>
+</html>
